@@ -274,7 +274,7 @@ def add_crop(request):
             crop.save()
             
             # SUCCESS MESSAGE ADD KARO
-            messages.success(request, f'✅ Crop "{crop.name}" added successfully!')
+            
             
             # REDIRECT TO my_crops (LIST PAGE)
             return redirect('my_crops')
